@@ -1,9 +1,11 @@
-#ifndef MAMMAL_H
-#define MAMMAL_H
 
-#include "Animal.h"
 
-//define mammal class here
+class Mammal : public Animal {
+        public:
+        Mammal() : Animal() {
+            string furColor;
+        }
+    };
 
 
 
