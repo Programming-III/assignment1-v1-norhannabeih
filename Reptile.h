@@ -1,9 +1,9 @@
-#ifndef REPTILE_H
-#define REPTILE_H
-
-#include "Animal.h"
-
-//define reptile class here
+class Reptile : public Animal {
+    public:
+        Reptile() : Animal() {
+            bool isVenomous;
+        }
+    };
 
 
 
