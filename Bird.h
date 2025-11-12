@@ -4,3 +4,4 @@ class Bird : public Animal {
             float wingSpan;
         }
     };
+#endif
